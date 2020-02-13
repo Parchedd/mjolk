@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <title>Fakta om Melk</title>
+  
+<style>
+body {
+  background-color: #e1f2fb;
+  font-family:Verdana;
+  }
+  ul {
+    color:black;
+  }
+   ul:hover {
+       color :blue;
+     }
+     
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<p>Det finnes flere ulike B-vitaminer. Hvert av dem har et navn, men de kan også benevnes med bokstaven B og et tall:<p/>
+
