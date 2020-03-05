@@ -1,2 +1,11 @@
-<!DOCTYPE html>
-<h4 style="color:blue;">This is a Blue Heading</h4>
+body
+{
+  margin: 0;
+  padding: 0;
+}
+.box
+{
+ width: 500px;
+ height: 500px;
+ background: #262626
+}
