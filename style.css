@@ -5,7 +5,12 @@ body
 }
 .box
 {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
  width: 500px;
  height: 500px;
  background: #262626
+ cursor: url(https://i.ibb.co/z2XGmNJ/Webp-net-resizeimage.png), pointer:
 }
