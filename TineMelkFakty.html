@@ -5,7 +5,18 @@
   <link rel="stylesheet" href ="style.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="fartscroll.js"></script>
-  <script>
+      <script>
+        $(document).ready(function() {
+            // Ensure the page always has more scrolling
+            $(document).scroll(function() {
+                while ((window.pageYOffset + window.innerHeight) >= $(this).height() - (window.innerHeight / 2)) {
+                    $('ul').append('<li>Testing.</li>');
+                }
+            }).scroll();
+
+            fartscroll(800);
+        });
+        </script>
   
 <style>
 body {
